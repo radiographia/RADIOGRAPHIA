@@ -36,9 +36,21 @@
     li {
       margin-bottom: 10px;
     }
+	
+	
+  .inactive-link {
+    pointer-events: none;
+    color: gray; /* Цвет для неактивной ссылки */
+    text-decoration: none; /* Удаление подчеркивания */
+    cursor: default; /* Изменение курсора на обычный */
+  }
+
+	
+	
   </style>
 </head>
 <body>
+<img width="794" height="1124"  src="the_knee/Image_001.jpg"/>
   <h1>MRI-Arthroscopy Correlations</h1>
   <div class="details">
     <p>A Case-Based Atlas of the Knee, Shoulder, Elbow, Hip and Ankle</p>
@@ -48,10 +60,10 @@
   <h2>Table of Contents</h2>
   <ul>
     <li><a href="the_knee/">Part I The Knee (Gehron P. Treme)</a></li>
-    <li><a href="part2.html">Part II The Shoulder (Brian C. Werner)</a></li>
-    <li><a href="part3.html">Part III The Elbow (Felix H. Savoie III and Michael J. O’Brien)</a></li>
-    <li><a href="part4.html">Part IV The Hip (Dustin L. Richte)</a></li>
-    <li><a href="part5.html">Part V The Ankle (Norman E. Waldrop III)</a></li>
+    <li><a class="inactive-link" href="javascript:void(0)">Part II The Shoulder (Brian C. Werner)</a></li>
+    <li><a class="inactive-link" href="javascript:void(0)">Part III The Elbow (Felix H. Savoie III and Michael J. O’Brien)</a></li>
+    <li><a class="inactive-link" href="javascript:void(0)">Part IV The Hip (Dustin L. Richte)</a></li>
+    <li><a class="inactive-link" href="javascript:void(0)">Part V The Ankle (Norman E. Waldrop III)</a></li>
   </ul>
   <p class="copyright">
     &copy; Springer Nature Switzerland AG 2022
